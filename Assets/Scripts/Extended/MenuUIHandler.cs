@@ -48,7 +48,7 @@ public class MenuUIHandler : MonoBehaviour
         MainManager.Instance.SaveColor();
     }
 
-    public void LoadColorCliked()
+    public void LoadColorClicked()
     {
         MainManager.Instance.LoadColor();
         ColorPicker.SelectColor(MainManager.Instance.TeamColor);
